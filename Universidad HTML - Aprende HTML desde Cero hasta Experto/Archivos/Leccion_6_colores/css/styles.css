@@ -15,3 +15,8 @@ p.buena{
     background-color: rgb(36, 29, 19);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+b.negrita1{
+    color: chartreuse;
+    font-size: large;
+}

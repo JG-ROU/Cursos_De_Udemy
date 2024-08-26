@@ -1,0 +1,55 @@
+h1{
+    color: blue;
+}
+
+p.primario{
+    color:brown;
+    background-color: bisque;
+    padding: 20PX;
+}
+
+p.segundario{
+    color: darkblue;
+    background-color: aliceblue;
+    padding-top: 10PX;
+    padding-bottom: 15PX;
+    padding-left: 5PX;
+    padding-right: 5PX;
+    border: solid black;
+    margin:30px;
+}
+
+a.primaria:link {
+    color:purple;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a.primaria:hover {
+    color: aquamarine;
+    text-decoration:underline;
+}
+
+a.primaria:active{
+    color: rgb(75, 105, 15);
+}
+
+a.segundaria:link{
+    color: black;
+    text-transform: capitalize;
+    background-color: beige;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
+
+a.segundaria:hover{
+    color: rgb(245, 0, 0);
+    background-color: rgb(146, 146, 144);
+    padding: 15px 25px;
+}
+
+a.segundaria:active{
+    color: black;
+    background-color: rgb(75, 75, 72);
+    padding: 15px 25px;
+}
