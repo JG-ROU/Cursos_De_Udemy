@@ -1,0 +1,2 @@
+- EXTENSIONES DE HTML
+<a href="https://github.com/JG-ROU" target="_blank">  target _blank para abrir en una nueva pestaña los links

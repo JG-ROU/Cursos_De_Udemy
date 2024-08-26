@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+}
+h1.segundario{
+    color: cadetblue;
+    text-align:center;
+}
+
+p{
+    color: aliceblue;
+    background-color: brown;
+}
+p.buena{
+    color: aqua;
+    background-color: rgb(36, 29, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
