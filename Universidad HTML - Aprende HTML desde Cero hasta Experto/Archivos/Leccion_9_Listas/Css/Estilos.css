@@ -1,0 +1,47 @@
+h1.uno{
+    color: blue;
+}
+
+ul.primera{
+    list-style: none;
+    background-color: #457b9d;
+    overflow: hidden;
+    margin: 0;
+}
+
+li.hor{
+    float: left;
+}
+
+li.hor a{
+    display: block;
+    padding: 10px;
+    color: beige;
+    text-decoration: none;
+    text-align: center;
+}
+
+li.hor a:hover{
+    background-color:  #2c6283;
+    color: black;
+
+}
+
+ol.uno{
+    list-style: none;
+    counter-reset: contador;
+}
+
+ol.uno li{
+    counter-increment: contador;
+}
+
+li.mod::before{
+    content:'Lenguaje ' counter(contador) ') ';
+    color: rgb(194, 109, 4);
+}
+
+li.mod::after{
+    content: '.';
+}
+
