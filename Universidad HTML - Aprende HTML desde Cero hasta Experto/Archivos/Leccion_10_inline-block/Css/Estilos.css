@@ -1,0 +1,19 @@
+h1{
+    color: brown;
+    text-align: center;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+p{
+    color: dimgray;
+}
+
+div{
+    border: 5px solid cadetblue;
+    text-align: center;
+    background-color: beige;
+    border-radius: 12px;
+}
